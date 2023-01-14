@@ -1,0 +1,84 @@
+{
+    "name": "Rocket Telemetry",
+    "key": "sc",
+    "measurements": [
+        {
+            "name": "Acceleration X",
+            "key": "prop.accx",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "g",
+                    "format": "float",
+                    "min": 0,
+                    "max": 10000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Acceleration Y",
+            "key": "prop.accy",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "g",
+                    "format": "float",
+                    "min": 0,
+                    "max": 10000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Acceleration Z",
+            "key": "prop.accz",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "g",
+                    "format": "float",
+                    "min": 0,
+                    "max": 10000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        }
+    ]
+}
