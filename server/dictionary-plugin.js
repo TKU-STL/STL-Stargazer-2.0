@@ -1,3 +1,17 @@
+/*function getDictionary() {
+    return http.get('./dictionary.json')
+        .then(function (result) {
+            return result.data;
+        });
+}
+function getDictionary(){
+    return fetch('./dictionary.json')
+        .then(function (response) {
+            return response.json();
+        }
+    );
+}
+*/
 function getDictionary() {
     return http.get('/dictionary.json')
         .then(function (result) {
@@ -55,13 +69,13 @@ function DictionaryPlugin() {
     return function install(openmct) {
         openmct.objects.addRoot({
             namespace: 'example.taxonomy',
-            key: 'sc'
+            key: 'spacecraft'
         });
-
+    
         openmct.objects.addProvider('example.taxonomy', objectProvider);
-
+    
         openmct.composition.addProvider(compositionProvider);
-
+    
         openmct.types.addType('example.telemetry', {
             name: 'Example Telemetry Point',
             description: 'Example telemetry point from our happy tutorial.',

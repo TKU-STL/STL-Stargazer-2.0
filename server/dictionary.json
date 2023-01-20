@@ -1,5 +1,5 @@
 {
-    "name": "Rocket Telemetry",
+    "name": "STL Mission Control",
     "key": "sc",
     "measurements": [
         {
@@ -62,6 +62,32 @@
                     "key": "value",
                     "name": "Value",
                     "units": "g",
+                    "format": "float",
+                    "min": 0,
+                    "max": 10000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Altitude",
+            "key": "prop.alt",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "meter",
                     "format": "float",
                     "min": 0,
                     "max": 10000,

@@ -19,7 +19,7 @@
                 "id": "de1cbc21-2193-45cb-a456-c12683883b3b",
                 "domainObjectIdentifier": {
                   "namespace": "example.taxonomy",
-                  "key": "pwr.hgh"
+                  "key": "prop.accy"
                 },
                 "size": 50,
                 "noFrame": false
@@ -34,7 +34,7 @@
                 "id": "fe316e5a-9cb6-481b-aea2-1f16c7c34868",
                 "domainObjectIdentifier": {
                   "namespace": "example.taxonomy",
-                  "key": "prop.par"
+                  "key": "prop.accz"
                 },
                 "size": 50,
                 "noFrame": false
@@ -43,7 +43,7 @@
                 "id": "7f406542-d557-4bec-b811-63b2c101e260",
                 "domainObjectIdentifier": {
                   "namespace": "example.taxonomy",
-                  "key": "pwr.ang"
+                  "key": "prop.alt"
                 },
                 "size": 50,
                 "noFrame": false
@@ -52,22 +52,22 @@
             "size": 50
           }
         ],
-        "rowsLayout": false
+        "rowsLayout":false
       },
       "composition": [
-        { "namespace": "example.taxonomy", "key": "prop.acc" },
-        { "namespace": "example.taxonomy", "key": "prop.par" },
-        { "namespace": "example.taxonomy", "key": "pwr.hgh" },
-        { "namespace": "example.taxonomy", "key": "pwr.ang" }
+        { "namespace": "example.taxonomy", "key": "prop.accx" },
+        { "namespace": "example.taxonomy", "key": "prop.accy" },
+        { "namespace": "example.taxonomy", "key": "prop.accz" },
+        { "namespace": "example.taxonomy", "key": "prop.alt" }
       ],
-      "name": "Display - Rocket FireWay",
+      "name": "example.taxonomy",
       "type": "flexible-layout",
       "modified": 1583669422156,
       "location": "mine",
       "persisted": 1583669422156,
       "id": "4a170375-64c2-460c-a095-d1dedae37902",
       "identifier": {
-        "namespace": "",
+        "namespace": "example.taxonomy",
         "key": "4a170375-64c2-460c-a095-d1dedae37902"
       }
     }
